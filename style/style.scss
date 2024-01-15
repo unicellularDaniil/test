@@ -1,0 +1,63 @@
+@import url(style.css);
+header{
+    display: flex;  
+    width: 1920px;
+    height: 110px;
+    background: #061321;    
+    justify-content: center;
+    .container{
+        width: 1110px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .box-1{
+
+            a{
+                    text-decoration: none;
+                .text-1{
+                    display: flex;
+                    align-items: center;
+                    color: #00A3FF;
+                    font-size: 18px;
+                    img{
+                        padding-right: 7px;
+                    }
+                }
+                p{
+                    display: flex;
+                    color: #69778A;
+                    font-size: 18px;
+                    margin: 0;
+                }
+            }
+            
+        }
+        .box-2{
+            align-items: center;
+            a{
+                
+                text-decoration: none;
+                .text-2{
+                    display: flex;
+                    align-items: center;
+                    color: #FFF;
+                    font-size: 18px;
+                }
+                p{
+                    color: #69778A;
+                    font-size: 18px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+}
+.header-2{
+    display: flex;  
+    width: 1920px;
+    height: 54px;
+    background: #07192D; 
+    justify-content: center;
+}

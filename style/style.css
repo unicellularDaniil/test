@@ -1,0 +1,57 @@
+@import url(style.css);
+header {
+  display: flex;
+  width: 1920px;
+  height: 110px;
+  background: #061321;
+  justify-content: center;
+}
+header .container {
+  width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .box-1 a {
+  text-decoration: none;
+}
+header .container .box-1 a .text-1 {
+  display: flex;
+  align-items: center;
+  color: #00A3FF;
+  font-size: 18px;
+}
+header .container .box-1 a .text-1 img {
+  padding-right: 7px;
+}
+header .container .box-1 a p {
+  display: flex;
+  color: #69778A;
+  font-size: 18px;
+  margin: 0;
+}
+header .container .box-2 {
+  align-items: center;
+}
+header .container .box-2 a {
+  text-decoration: none;
+}
+header .container .box-2 a .text-2 {
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  font-size: 18px;
+}
+header .container .box-2 a p {
+  color: #69778A;
+  font-size: 18px;
+  margin: 0;
+}
+
+.header-2 {
+  display: flex;
+  width: 1920px;
+  height: 54px;
+  background: #07192D;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
